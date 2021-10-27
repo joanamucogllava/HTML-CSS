@@ -1,2 +1,2 @@
-# HTML-Study
+# HTML/CSS 
 Just for fun
