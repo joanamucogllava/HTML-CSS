@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head> 
+<style>
+
+                    
+/* Joana Mucogllava. Fire Welding Animation has been applied */
+div {
+  width:2500px;
+  height:2414px;
+  background-image: url("file:///Users/joanamucogllava/Desktop/WebProgramming Project/fire-welding.png");
+  background-color: clear;
+  animation-name: flickerAnimation;
+  animation-duration: 0.25s;
+  animation-iteration-count: infinite;
+  animation-direction: up;
+
+
+}
+
+
+@keyframes flickerAnimation {
+  0%   { opacity:1; }
+  50%  { opacity:0; }
+  100% { opacity:1; }
+}
+@-o-keyframes flickerAnimation{
+  0%   { opacity:1; }
+  50%  { opacity:0; }
+  100% { opacity:1; }
+}
+@-moz-keyframes flickerAnimation{
+  0%   { opacity:1; }
+  50%  { opacity:0; }
+  100% { opacity:1; }
+}
+@-webkit-keyframes flickerAnimation{
+  0%   { opacity:1; }
+  50%  { opacity:0; }
+  100% { opacity:1; }
+}
+.animate-flicker {
+   -webkit-animation: flickerAnimation .5s infinite;
+   -moz-animation: flickerAnimation .5s infinite;
+   -o-animation: flickerAnimation .5s infinite;
+    animation: flickerAnimation .5s infinite;
+}
+
+
+</style>
+</head>
+<body>
+
+
+
+<div>
+	
+</div>
+
+</body>
+</html>
